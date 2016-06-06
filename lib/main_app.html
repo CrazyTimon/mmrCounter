@@ -1,0 +1,14 @@
+<div>
+    <label for="count">Текущее</label>
+    <input id="count" [(ngModel)]="mmr.count">
+</div>
+<div>
+    <label for="needed">Необходимое</label>
+    <input id="needed" [(ngModel)]="mmr.needed">
+</div>
+<div class="result">
+    <label>Результат(при условии что за выигрышь дается 24 очка и каждая игрга выигрышная)</label>
+    <div>{{mmr.mathcCount(24)}}</div>
+    <label>Результат(при условии что за выигрышь дается 25 очков и каждая игрга выигрышная)</label>
+    <div>{{mmr.mathcCount(25)}}</div>
+</div>

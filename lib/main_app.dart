@@ -5,7 +5,8 @@ import 'package:angular2/angular2.dart';
     templateUrl: 'main_app.html',
     styleUrls: const ['main_app.css'],
     directives: const [
-      CORE_DIRECTIVES
+      CORE_DIRECTIVES,
+      FORM_DIRECTIVES
     ]
 )
 class AppComponent {
@@ -16,12 +17,6 @@ class AppComponent {
 }
 
 class MMR {
-//  int _count;
-//  String get count;
-//  String set count(String cnt)=> cnt;
-//  int _needed;
-//  String needed;
-//  String needed;
   String count;
   String needed;
 
